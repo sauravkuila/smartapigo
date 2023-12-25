@@ -14,7 +14,7 @@ type Holding struct {
 	Quantity           int64   `json:"quantity"`
 	AveragePrice       float64 `json:"averageprice"`
 	AuthorisedQuantity int64   `json:"authorisedquantity"`
-	ProfitAndLoss      string  `json:"profitandloss"`
+	ProfitAndLoss      float64 `json:"profitandloss"`
 	Product            string  `json:"product"`
 	CollateralQuantity int64   `json:"collateralquantity"`
 	CollateralType     string  `json:"collateraltype"`
